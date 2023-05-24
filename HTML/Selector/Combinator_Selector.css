@@ -1,0 +1,24 @@
+/* 1)  gnearal sibling selector (~) : target all the given tags sibling 
+        to specific tag and also after the specific tag
+        ex: target all the p tags which are general sibling of span tag  and after span tag*/
+span ~ p{
+    color: blue;
+}
+
+        /* taget all the .para class element which are sibling of the span :target */
+span ~ .para{
+    color: brown;
+}
+
+h1 ~ .para,#para-1 , .title  ~ #para-2{
+    color:green;
+}
+/* {
+    color: green;
+} */
+
+
+/* 2) adjacenet sibling (+) : select right side adjancent sibling */
+h1+p{
+    color: gray;
+}
