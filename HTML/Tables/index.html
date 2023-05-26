@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tables</title>
+    <!-- <style>
+        table,th,td{
+            border: 2px blue dotted;
+            border-radius: 10px;
+        }
+    </style> -->
+</head>
+<body>
+    <!-- <table border="1px" style="border-collapse: collapse;"> -->
+        <table border="1px">
+        <!-- i want to creat 4 rows*3 col table -->
+        <!-- -first creat rows - tr tags(table row) 
+        first row will have heading - th tag (table haeding)
+        remaing row will contain colom data - td tag(table data) -->
+        <thead>
+            <tr>
+                <th>Roll No.</th>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>100</td>
+                <td>Drashti</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>200</td>
+                <td>Sharad</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>300</td>
+                <td>Ketul</td>
+                <td>29</td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- convert the above table upside down -->
+    <table border="1px" cellspacing="20" cellpadding="5">
+            <tr>
+                <th>Science</th>
+                <td>23</td>
+                <td>56</td> 
+            </tr>
+            <tr>
+                <th>Maths</th>
+                <td>56</td>
+                <td>55</td>
+            </tr>
+            <tr>
+                <th>Sanskrit</th>
+                <td>36</td>
+                <td>39</td>
+            </tr>
+            <tr>
+                <th>Engish</th>
+                <td>45</td>
+                <td>49</td>
+            </tr>
+    </table>
+    <table border="2" cellspacing="0" cellpadding="2" >
+        <thead>
+            <tr>
+                <th colspan="2">c1</th>
+                <th>c2</th>
+                <th>c3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr> 
+                <td rowspan="2">11</td>
+                <td>12</td>
+                <td>13</td>
+            </tr>
+            <tr>
+                <td>21</td>
+                <td>22</td>
+                <td>23</td>
+            </tr>
+            <tr>
+                <td>31</td>
+                <td>32</td>
+                <td>33</td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- --assignment que-- -->
+    <table  border="1px"style="border: 1px solid rgb(255,255,0); background-color: yellow">
+        <thead>
+            <caption>Student details</caption>
+            <tr>
+                <th>Name</th>
+                <th>Age</th> 
+                <th>Branch</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Shaw</td>
+                <td>20</td>
+                <td>CSE</td>
+            </tr>
+            <tr>
+                <td>Adil</td>
+                <td>21</td>
+                <td>ECE</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
