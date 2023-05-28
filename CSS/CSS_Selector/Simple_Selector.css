@@ -1,0 +1,31 @@
+/* 1) Univarsal selector(*) - selects all the elements in your document */
+*{
+    color: red;
+}
+
+/* 2) tag selector (tag keyword) - selects all the tag with the given :tag */
+p{
+    color:pink;
+}
+
+/* 3) class selector (.class_name): when you want to group some elements and give them 
+the same css  */
+.para{
+    color:maroon;
+}
+
+/* 4) id selector(#id_name): select the element with given :id 
+id should be unique(good practice) */
+#para-1{
+    color: black;
+}
+
+/* 5) grouping selector (,): you can group mulitple selector or tag or any combination */
+.para,#para-1, h1{
+    color: greenyellow;
+}
+
+/* 6) element.class selector selects specified element with specified task */
+h1.para{
+    color:blueviolet;
+}
