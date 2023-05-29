@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Positions</title>
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      .parent {
+        height: 200vh;
+        background-color: pink;
+        padding: 30px;
+      }
+      .child {
+        padding: 30px;
+        border: 1px solid black;
+        color: white;
+      }
+      .child:nth-child(1) {
+        background-color: lightskyblue;
+      }
+      .child:nth-child(2) {
+        background-color: violet;
+      }
+      .child:nth-child(3) {
+        background-color: purple;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Positions in CSS</h1>
+    <ol>
+      <li>Static:the original or default position of an element</li>
+      <li>
+        Relative: Element is positioned relative to it's original/normal
+        position. Same as static positioning, just that here we can move the
+        element by adding offset values. Element stays in the normal document
+        flow
+      </li>
+      <li>
+        Absolute: 1) Element is positioned relative to its parent 2) if parent
+        is not present then element is positioned relative to the main document
+        3) element is removed from the normal document flow, no space is created
+        for the element.
+      </li>
+      <li>
+        Fixed:element is always positioned ralative to viewport element alwyas
+        statys in the same position even on the scroling element is removed from
+        the normal document flow
+      </li>
+      <li>
+        Sticky:element is positioned according to the noemal document flow till
+        the element hits the top, it has normal position, after it thouches the
+        top , it's positions becomes fixed
+      </li>
+    </ol>
+    <div class="parent">
+      Parent
+      <div class="child">One</div>
+      <div class="child">Two</div>
+      <div class="child">Three</div>
+    </div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Carrer</a>
+      <a href="#">Contact</a>
+      <a href="#">Site Map</a>
+    </nav>
+  </body>
+</html>

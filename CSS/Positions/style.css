@@ -1,0 +1,29 @@
+.parent{
+    position: relative;
+}
+.child{
+
+}
+.child:nth-child(1){
+    position: sticky;
+    top: 100px;
+}
+.child:nth-child(2){
+    position: absolute;
+    left: 10px;
+    top:0px;
+}
+.child:nth-child(3){
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+nav{
+    border: 1px solid blue;
+    background-color: aquamarine;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}

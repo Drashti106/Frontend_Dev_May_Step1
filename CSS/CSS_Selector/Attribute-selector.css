@@ -1,0 +1,11 @@
+input[type="text"]{
+    color: brown;
+    background-color: blueviolet;
+}
+input[type="email"]{
+    color:black;
+    background-color: aqua;
+}
+input[type="range"]{
+    color: brown;
+}

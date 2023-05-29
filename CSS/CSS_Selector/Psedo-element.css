@@ -1,0 +1,23 @@
+/* psedo element selector are used to style specific part of an element
+    syntax: selector::pseudo-element */
+
+    p::first-line{
+        color: blue;
+    }
+    p::first-letter{ 
+        color: red;
+    }
+/* ::before - when you want to add somthing before anything you can use this */
+    p::before{
+        content: url(../Assets/Icon/checked.png);
+    }
+    li::before{
+        content: url(../Assets/Icon/checked.png);
+    }
+    li::after{
+        content: url(../Assets/Icon/checked.png);
+    }
+    li::marker{
+        color: blue;
+        size: 500   px;
+    }
