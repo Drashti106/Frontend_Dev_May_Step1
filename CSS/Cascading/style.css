@@ -1,0 +1,14 @@
+/* h1{
+    color: green !important;
+    font-weight: 200; //this will get higher priority over user agent style sheet
+}
+::marker{
+    text-align: end;
+} */
+
+h1{
+    color: red;
+}
+.heading{
+    color: blue;
+}

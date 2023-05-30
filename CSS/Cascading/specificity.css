@@ -1,0 +1,59 @@
+/* ***************APecificity score********************* */
+
+/* 6) Important = 10000 */
+/* *{
+    color: purple !important;
+} */
+
+/* inline css = 1000 */
+ 
+
+/* 4) ID selector = 100*/
+/* #h1{
+    color: aqua;
+} */
+
+/* 3) class, psedo class and attribute selector = 10 */
+/*  conflict between all this will be resolved by oder of appearance*/
+/* .heading{
+    color: coral
+}
+:link{
+    color: red;
+}
+a{
+    color: purple;
+}
+[href="#"]{
+    color: blue;
+} */
+
+/* 2) tag and psuedo element selector = 1 */
+    /* here also psudeo element will get higher priority */
+/* h1::first-line{
+    color: blue;
+} */
+ /* / * this was dominating in class/ */ */
+ h1{
+    color: yellow;
+}
+::marker{
+    color: brown;
+}
+
+
+/* 1) univarsal selector = 0 */
+/* *{
+    color: pink;
+} */
+
+body{
+    color: rgb(99, 51, 51);
+}
+ul{
+    color: blue;
+}
+li{
+    color: inherit;
+}
+
