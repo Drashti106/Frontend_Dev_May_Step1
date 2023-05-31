@@ -1,0 +1,30 @@
+.container{
+    background-color: lightblue;
+    height: 500px;
+    display: flex;
+    /* flex-direction: row, column, row-reverse, column-reverse; */
+    flex-direction: row;
+    /* Flex-wrap:no wrap(by default) / wrap / wrap reversed  */
+    flex-wrap: wrap;
+    /* short hand for direction and wrap */
+    flex-flow:row wrap;
+    /* Justify-content: start/end/center/space- around/ space - between */
+    justify-content:center;
+    /* Align-items: streatch( by default)/ flex-start / flex-end/ center  */
+    /* works only for single row */
+    align-items: center;
+    /* align content:center/flex-start/flex-end/streach/space-around/space-inbetween/ space-evenly */
+    align-content: center;
+    gap: 10px 20px;
+
+
+}
+.container .item{
+    background-color: royalblue;
+    margin: 10px 10px;
+    color: white;
+    width: 40%;
+
+    
+}
+
