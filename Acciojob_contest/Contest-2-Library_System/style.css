@@ -1,0 +1,116 @@
+*{
+    background-color: burlywood;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    color: darkblue;
+    text-decoration:underline solid;
+}
+table{
+    align-content: center;
+    border-collapse: collapse;
+    margin-left:auto;
+    margin-right: auto;
+    width: 80%;
+}
+table, th, td{
+    border: 1px solid saddlebrown;
+    text-align: center;
+    color: darkblue;
+}
+.book_info caption{
+    text-align: left;
+    font-weight: bolder;
+}
+.book_info td{
+    text-align: left;
+}
+th{
+    background-color: brown;
+    color: white;
+    border-color: lightcyan;
+}
+.book_info, td{
+    border: 1px solid lightslategray;
+    border-radius: 5px;
+    border-collapse: separate;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    border: 1px solid darkblue;
+}
+.registration_form{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+input{
+    width: 100px !important;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    align-items: center;
+    height: 65px;
+    padding: 0px 40px;
+    position: fixed;
+    z-index: 1000;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+nav .image{
+    align-items: center;
+    justify-content: start;
+    height: 65px;
+    width: 17%;
+    display: flex;
+    justify-items: center;
+}
+nav .image img{
+    height: 80%;;
+}
+.title{
+    height: 63px;
+    align-items: center;
+    
+}
+.title h1{
+    animation: title-animation 5s ease 2s infinite normal forwards;
+}
+.links{
+    width: 25%;
+    display: flex;
+    column-gap: 20px;
+    justify-content: end;
+    color: darkblue;
+} 
+.links a{
+    color: darkblue;
+    text-decoration: none;
+    font-weight: 400;
+}
+.book_table{
+    position: relative;
+    top: 70px;
+}
+h3{
+    color: darkblue;
+}
+@keyframes title-animation{
+    0%{
+        color: darkblue;
+    }
+    25%{
+        color: brown;
+    }
+    75%{
+        color: green;
+    }
+    100%{
+        color: aliceblue;
+    }
+}
+

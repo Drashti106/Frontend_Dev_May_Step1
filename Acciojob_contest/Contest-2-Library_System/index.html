@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./images/library.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Library System</title>
+</head>
+<body>
+    <nav>
+        <div class="image">
+            <img src="./images/shelves.png" alt="">
+        </div>
+        <div class="title">
+            <h1>Offline Library</h1>
+        </div>
+        <div class="links">
+                <a href="#book">BOOK</a>
+                <a href="#form">Registration Form</a>
+        </div>
+    </nav>
+    
+    <div class="book_table" id="book">
+        <h3 align = "center">Book Display</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Book ID</th>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Genre</th>
+                    <th>Avaibility</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>#DD1</td>
+                    <td>
+                        <table class="book_info">
+                            <caption>You can win</caption>
+                            <tr><td>Publication Date: 1998</td></tr>
+                            <tr><td>Page Count: 314</td></tr>
+                            <tr><td>ISBN: 9382951717</td></tr>
+                        </table>
+                    </td>
+                    <td>b</td>
+                    <td>b</td>
+                    <td>b</td>
+                </tr>
+
+                <tr>
+                    <td>#DD2</td>
+                    <td>
+                        <table class="book_info">
+                            <caption>The Immortals of Meluha</caption>
+                            <tr><td>Publication Date: 2010</td></tr>
+                            <tr><td>Page Count: 390</td></tr>
+                            <tr><td>ISBN: 978-93-80658-74-2</td></tr>
+                        </table>
+                    </td>
+                    <td>b</td>
+                    <td>n</td>
+                    <td>m</td>
+                </tr>
+
+                <tr>
+                    <td>#DD3</td>
+                    <td>
+                        <table class="book_info">
+                            <caption>Five Point Someone</caption>
+                            <tr><td>Publication Date: 2004</td></tr>
+                            <tr><td>Page Count: 284</td></tr>
+                            <tr><td>ISBN: 8129104598</td></tr>
+                        </table>
+                    </td>
+                    <td>s</td>
+                    <td>s</td>
+                    <td>s</td>
+                </tr>
+
+                <tr>
+                    <td>#DD4</td>
+                    <td><table class="book_info">
+                        <caption>Autobiography of a Yogi</caption>
+                        <tr><td>Publication Date: 1995</td></tr>
+                        <tr><td>Page Count: 481</td></tr>
+                        <tr><td>ISBN: 1-56589-108-2</td></tr>
+                    </table></td>
+                    <td>s</td>
+                    <td>s</td>
+                    <td>s</td>
+                </tr>
+
+                <tr>
+                    <td>#DD5</td>
+                    <td><table class="book_info">
+                        <caption>Dolphin and the Shark</caption>
+                        <tr><td>Publication Date: 2022</td></tr>
+                        <tr><td>Page Count: 256</td></tr>
+                        <tr><td>ISBN: 0143458973</td></tr>
+                    </table></td>
+                    <td>s</td>
+                    <td>s</td>
+                    <td>s</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="registration_form" id="form">
+            <h1>Registration Form</h1>
+            <div class="form">
+                <form action="#" method="post">
+                    <label for="first_name">First Name:</label><br>
+                    <input type="text" name="first_name" id="first_name"><br>
+                    <label for="last_name">Last Name:</label><br>
+                    <input type="text" name="last_name" id="last_name"><br>
+                    <label for="email">Email</label><br>
+                    <input type="email" name="email" id="email"><br>
+                    <label for="dob">Date Of Birth</label><br>
+                    <input type="date" name="dob" id="dob"><br>
+                    <label for="age">Age</label><br>
+                    <input type="number" name="number" id="number"><br>
+                    <label for="password">Password</label><br>
+                    <input type="password" name="password" id="password"><br>
+                    <label for="confirm_password">Confirm Password</label><br>
+                    <input type="password" name="confirm_password" id="confirm_password"><br>
+                    <input type="submit" name="submit" id="submit">
+                    <input type="reset" name="reset" id="reset">
+                </form>
+            </div>
+    </div>
+</body>
+</html>

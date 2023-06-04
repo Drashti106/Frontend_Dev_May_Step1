@@ -1,0 +1,14 @@
+*{
+    font-family: 'Inter', sans-serif;
+}
+.first{
+    border: 2px solid #000000;
+    padding: 20px;
+}
+.first a, .second a{
+    color: black;
+}
+.second img{
+width: 300px;
+height: 300px;
+}
